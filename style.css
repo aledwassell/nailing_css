@@ -1,0 +1,31 @@
+h1, h2, h3, h4, h5, h6{
+    color: #222;
+    font-family: 'Helvetica', sans-serif;
+}
+
+body{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Holga_120_GCFN.jpg/1200px-Holga_120_GCFN.jpg');
+}
+
+.camera{
+    width: 420px;
+    height: 210px;
+    background: #999;
+    position: absolute;
+    top: 220px;
+    left: 320px;
+    border-radius: 5px;
+}
+
+.lense{
+    position: relative;
+    top: 40px;
+    left: 140px;
+    width: 120px;
+    height: 120px;
+    border: 8px solid #222;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+}
+
