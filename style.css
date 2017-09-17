@@ -29,7 +29,7 @@ body{
 
 }
 
-.flash{
+.flash-body{
     width: 325px;
     height: 290px;
     position: relative;
@@ -39,8 +39,6 @@ body{
     border: 40px solid #222;
     box-sizing: border-box;
     background: #fff;
-    -webkit-transform: rotateX(20deg); /* Chrome, Safari, Opera  */
-    transform: rotateX(3deg);
 }
 
 .lense-body{
