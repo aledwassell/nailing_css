@@ -3,9 +3,11 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Helvetica', sans-serif;
 }
 
+/*
 body{
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Holga_120_GCFN.jpg/1200px-Holga_120_GCFN.jpg');
 }
+*/
 
 .camera-body{
     width: 800px;
@@ -46,17 +48,29 @@ body{
     width: 440px;
     height: 460px;
     bottom: 70px;
-    left: 255px;
+    left: 200px;
     border-radius: 35px;
     background: #222;
 }
 
 .lense{
+    position: relative;
     width: 410px;
     height: 410px;
-    border: 8px solid #222;
-    background-color: blue;
+    left: 15px;
+    bottom: -30px;
+    border: 1px solid silver;
+    background-color: #000;
     border-radius: 50%;
-    position: absolute;
+}
+
+.lense-inner{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 70px;
+    left: 40px;
+    background: #fff;
+    border-radius: 50%;
 }
 
