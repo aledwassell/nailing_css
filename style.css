@@ -22,6 +22,12 @@ body{
     perspective: 150px;
 }
 
+.camera-top{
+    height: 200px;
+    width: 800px;
+    background: #ffdc91;
+}
+
 .side-1{
     height: 670px;
     width: 0px;
@@ -36,9 +42,9 @@ body{
     top: -100px;
     left: 315px;
     border-radius: 5px;
-    border: 40px solid #222;
+    border: 2px solid #999;
     box-sizing: border-box;
-    background: #fff;
+    background: #ffdc91;
 }
 
 .lense-body{
