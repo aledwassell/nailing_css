@@ -4,12 +4,12 @@ h1, h2, h3, h4, h5, h6{
 }
 
 body{
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Holga_120_GCFN.jpg/1200px-Holga_120_GCFN.jpg');
+/*    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Holga_120_GCFN.jpg/1200px-Holga_120_GCFN.jpg');*/
 }
 
 .camera-body{
-    width: 800px;
-    height: 670px;
+    width: 900px;
+    height: 470px;
     background: #999;
     position: absolute;
     top: 200px;
@@ -21,11 +21,12 @@ body{
 }
 
 .flash{
-    width: 325px;
-    height: 290px;
+    z-index: 1;
+    width: 225px;
+    height: 190px;
     position: relative;
-    top: -100px;
-    left: 315px;
+    top: -70px;
+    right: -615px;
     border-radius: 5px;
     border: 40px solid #222;
     box-sizing: border-box;
