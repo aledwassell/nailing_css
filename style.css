@@ -3,21 +3,24 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Helvetica', sans-serif;
 }
 
+/*
 body{
 /*    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Holga_120_GCFN.jpg/1200px-Holga_120_GCFN.jpg');*/
 }
+*/
 
 .camera-body{
     width: 900px;
     height: 470px;
     background: #999;
+    width: 800px;
+    height: 700px;
+    background: lightblue;
     position: absolute;
-    top: 200px;
+    top: 100px;
     left: 190px;
-    border-radius: 5px;
-    opacity: 0.8;
-    -webkit-perspective: 150px;
-    perspective: 150px;
+    border-radius: 10px;
+    border: 2px solid #999;
 }
 
 .flash{
@@ -27,30 +30,67 @@ body{
     position: relative;
     top: -70px;
     right: -615px;
+    
+.camera-top{
+    height: 200px;
+    width: 800px;
+    background: #ffdc91;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.flash-body{
+    width: 325px;
+    height: 290px;
+    position: relative;
+    top: -270px;
+    left: 250px;
     border-radius: 5px;
-    border: 40px solid #222;
+    border: 2px solid #999;
     box-sizing: border-box;
-    background: #fff;
-    -webkit-transform: rotateX(20deg); /* Chrome, Safari, Opera  */
-    transform: rotateX(3deg);
+    background: #ffdc91;
+    z-index: 2;
+}
+
+.flash{
+    position: relative;
+    height: 200px;
+    width: 250px;
+    left: 35px;
+    top: 40px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    background: #eee;
 }
 
 .lense-body{
     position: relative;
     width: 440px;
     height: 460px;
-    bottom: 70px;
-    left: 255px;
+    bottom: 250px;
+    left: 200px;
     border-radius: 35px;
     background: #222;
 }
 
 .lense{
+    position: relative;
     width: 410px;
     height: 410px;
-    border: 8px solid #222;
-    background-color: blue;
+    left: 15px;
+    bottom: -30px;
+    border: 1px solid silver;
+    background-color: #000;
     border-radius: 50%;
-    position: absolute;
+}
+
+.lense-inner{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 70px;
+    left: 40px;
+    background: #fff;
+    border-radius: 50%;
 }
 
