@@ -3,12 +3,6 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Helvetica', sans-serif;
 }
 
-/*
-body{
-/*    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Holga_120_GCFN.jpg/1200px-Holga_120_GCFN.jpg');*/
-}
-*/
-
 .camera-body{
     width: 900px;
     height: 470px;
@@ -30,6 +24,7 @@ body{
     position: relative;
     top: -70px;
     right: -615px;
+}
     
 .camera-top{
     height: 200px;
